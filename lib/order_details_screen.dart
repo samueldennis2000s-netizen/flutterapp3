@@ -43,6 +43,8 @@ class OrderDetailScreen extends StatelessWidget {
 
             const SizedBox(height: 10),
 
+            Container(),
+
             Expanded(
               child: ListView.builder(
                 itemCount: items.length,
